@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LocationFinder!</string>
+    <string name="app_name">Plant Places Mobile Summer Course</string>
+    <string name="lblLatitude">Latitude:</string>
+    <string name="blank"></string>
+    <string name="lblLongitude">Longitude:</string>
+    <string name="description">Description:</string>
+    <string name="btnSaveLocation">Save Location</string>
+    <string name="lblFindSpecimen">Find Specimen</string>
+    <string name="lblGenus">Genus:</string>
+    <string name="lblSpecies">Species:</string>
+    <string name="lblCultivar">Cultivar:</string>
+    <string name="lblCategory">Category:</string>
+    <string name="mnuLocationScreen">Location</string>
+    <string name="mnuPlantSearchScreen">Plant Search</string>
+    <string name="btnSearchPlants">Search</string>
+    <string name="btnShowSpecimens">Show Specimens</string>
+</resources>

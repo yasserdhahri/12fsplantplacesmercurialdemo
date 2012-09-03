@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TableLayout android:layout_width="match_parent" android:id="@+id/tableLayout1" android:layout_height="match_parent">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:text="@string/lblGenus" android:layout_height="wrap_content" android:id="@+id/textView1"></TextView>
+            <AutoCompleteTextView android:id="@+id/actGenus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blank" android:layout_weight="1"></AutoCompleteTextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:text="@string/lblSpecies" android:layout_height="wrap_content" android:id="@+id/textView2"></TextView>
+            <EditText android:layout_width="wrap_content" android:id="@+id/edtSpecies" android:layout_height="wrap_content" android:text="@string/blank" android:layout_weight="1"></EditText>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:text="@string/lblCultivar" android:layout_height="wrap_content" android:id="@+id/textView3"></TextView>
+            <EditText android:layout_width="wrap_content" android:id="@+id/edtCultivar" android:layout_height="wrap_content" android:text="@string/blank" android:layout_weight="1"></EditText>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:text="@string/lblCategory" android:layout_height="wrap_content" android:id="@+id/textView4"></TextView>
+            <Spinner android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/spnCategory" android:layout_weight="1"></Spinner>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+        <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+        <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content"></TableRow>
+        <TableRow android:id="@+id/tableRow8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSearchPlants" android:text="@string/btnSearchPlants"></Button>
+            <TextView android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtPlantResult" android:text="@string/blank"></TextView>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
