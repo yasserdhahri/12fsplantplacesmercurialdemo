@@ -16,4 +16,6 @@
     <string name="mnuPlantSearchScreen">Plant Search</string>
     <string name="btnSearchPlants">Search</string>
     <string name="btnShowSpecimens">Show Specimens</string>
+    <string name="lblViewSpecimens">View Specimens</string>
+    <string name="lblUploadSpecimens">Upload Specimens</string>
 </resources>

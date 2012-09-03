@@ -25,6 +25,7 @@ public class LocationFinder extends PlantPlacesActivity {
 	private Button btnSaveSpecimen;
 	private Button btnFindSpecimen;
 	private Button btnShowSpecimens;
+	private Button btnUploadSpecimens;
 
 	// location coordinates.
 	private double latitude;
@@ -55,6 +56,7 @@ public class LocationFinder extends PlantPlacesActivity {
         btnSaveSpecimen = (Button) findViewById(R.id.btnSaveLocation);
         btnFindSpecimen = (Button) findViewById(R.id.btnFindSpecimen);
         btnShowSpecimens = (Button) findViewById(R.id.btnShowSpecimens);
+        btnUploadSpecimens = (Button) findViewById(R.id.btnUploadSpecimens);
         
         // make an object of the listener type.
         OnClickListener saveListener = new SaveSpecimen();
@@ -95,6 +97,16 @@ public class LocationFinder extends PlantPlacesActivity {
         	
         });
         
+        btnUploadSpecimens.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				uploadSpecimens();
+				
+			}
+        	
+        });
+        
         // Initialize location manager for updates.
         locationManager = (LocationManager) getSystemService(LOCATION_SERVICE); 
         
@@ -107,7 +119,15 @@ public class LocationFinder extends PlantPlacesActivity {
         
     }
     
-    protected void showSpecimens() {
+    /**
+     * Not yet implemented.
+     */
+    protected void uploadSpecimens() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	protected void showSpecimens() {
 		// redirect to an activity that will show specimens.
     	Intent showSpecimensIntent = new Intent(this, ShowSpecimensActivity.class);
     	startActivity(showSpecimensIntent);

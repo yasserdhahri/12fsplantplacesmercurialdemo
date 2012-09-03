@@ -23,4 +23,7 @@
         <Button android:layout_width="wrap_content" android:id="@+id/btnSaveLocation" android:layout_height="wrap_content" android:text="@string/btnSaveLocation"></Button>
         <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/btnShowSpecimens" android:id="@+id/btnShowSpecimens"></Button>
     </TableRow>
+    <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/btnUploadSpecimens" android:text="@string/lblUploadSpecimens"></Button>
+    </TableRow>
 </TableLayout>
