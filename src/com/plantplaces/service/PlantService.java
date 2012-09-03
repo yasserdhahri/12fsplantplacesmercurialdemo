@@ -12,6 +12,12 @@ import com.plantplaces.dao.OnlinePlantDAO;
 import com.plantplaces.dto.Plant;
 import com.plantplaces.dto.Specimen;
 
+/**
+ * Plant Service when the mobile network is available.
+ * 
+ * @author jonesb
+ *
+ */
 public class PlantService implements IPlantService {
 	
 	// create a variable of type IPlantDAO.
@@ -33,7 +39,7 @@ public class PlantService implements IPlantService {
 		allGenus.add("Amelanchier");
 		allGenus.add("Amur");
 		allGenus.add("Acer");
-		
+		 
 		return allGenus;
 	}
 
