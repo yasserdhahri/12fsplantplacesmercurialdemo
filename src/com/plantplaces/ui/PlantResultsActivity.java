@@ -15,6 +15,11 @@ import com.plantplaces.dto.Plant;
 import com.plantplaces.service.IPlantService;
 import com.plantplaces.service.PlantService;
 
+/**
+ * PlantResultsAcitivity shows a list of plants.
+ * @author jonesbr
+ *
+ */
 public class PlantResultsActivity extends ListActivity {
 	
 	IPlantService plantService;

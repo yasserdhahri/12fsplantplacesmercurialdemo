@@ -18,6 +18,12 @@ import com.plantplaces.dto.Specimen;
 import com.plantplaces.service.IPlantService;
 import com.plantplaces.service.PlantService;
 
+/**
+ * Find a latitude and longitude location.
+ * 
+ * @author jonesbr
+ *
+ */
 public class LocationFinder extends PlantPlacesActivity {
     private TextView txtLatitudeValue;
 	private TextView txtLongitudeValue;
